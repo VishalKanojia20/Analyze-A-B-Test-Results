@@ -17,7 +17,7 @@ There are 294487 enteries in the dataset out of which 290584 are unique. There a
 In this part, I computed the probability for the users in the control group getting converted and the users in the treatment group getting converted. I used .query(), .mean() and .drop() functions to calculate the probabilities. 
 ### 2. AB Testing:
 For this part, I assumed two hypothesis
-> ***Ho : Pold >= Pnew*** 
+> ***Ho : Pold >= Pnew***. 
 > ***H1 : Pold < Pnew***
 Then performed the sampling distribution for the difference in **converted** between the two pages over 10,000 iterations of calculating an estimate from the null. I used the concept of **p-value** to get to the conclusion based on the hypothesis. 
 ### 3. Regression:
